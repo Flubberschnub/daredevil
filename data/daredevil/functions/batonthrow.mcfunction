@@ -1,0 +1,4 @@
+execute at @s unless entity @e[tag=thrownbaton] run summon armor_stand ~ ~ ~ {CustomNameVisible:0b,Invulnerable:1b,Marker:1b,Invisible:1b,Team:"rightclick",NoGravity:1b,Tags:["thrownbaton"],ArmorItems:[{},{},{},{id:"minecraft:shield",Count:1b,tag:{Unbreakable:1b,Damage:7}}],Small:1b,CustomName:"{\"text\":\"thrownbaton\"}"}
+tp @e[tag=thrownbaton] @e[tag=dd,limit=1]
+execute as @e[tag=dd,nbt={SelectedItem:{id:"minecraft:shield",Count:1b,tag:{display:{Name:"{\"text\":\"Baton\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Unbreakable:1b}}}] unless entity @e[tag=thrownbaton] at @s run replaceitem entity @s weapon.mainhand air
+execute at @e[tag=dd] run playsound minecraft:item.trident.throw master @a[distance=..5] ~ ~ ~ 5

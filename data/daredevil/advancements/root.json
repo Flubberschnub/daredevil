@@ -1,0 +1,30 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "I can't see!",
+            "color": "dark_red",
+            "bold": true,
+            "italic": true
+        },
+        "description": {
+            "text": "You're blind, but you see so much.",
+            "color": "white",
+            "italic": false
+        },
+        "icon": {
+            "item": "minecraft:shield",
+            "nbt": "Unbreakable:1b,Damage:7b"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

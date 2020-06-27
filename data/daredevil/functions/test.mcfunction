@@ -1,0 +1,3 @@
+execute at @e[tag=test] run summon falling_block ~2 ~1 ~0 {BlockState:{Name:"minecraft:stone"},NoGravity:1b,Glowing:1b,Time:580,DropItem:0b,HurtEntities:0b,Motion:[0d,-1d,0d]}
+execute at @e[tag=echolocate] as @e[tag=echolocate] unless block ~ ~ ~ air run data merge entity @s {Motion:[0,0,0]}
+execute at @e[tag=echolocate] align x align y align z as @e[tag=echolocate] unless block ~ ~ ~ air run tp @s ~ ~ ~
