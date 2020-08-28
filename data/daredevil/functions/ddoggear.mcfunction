@@ -2,7 +2,7 @@
 give @a[tag=dd] minecraft:leather_chestplate{display:{Name:"{\"text\":\"Black Shirt\",\"color\":\"black\",\"bold\":\"true\",\"italic\":\"true\"}",color:0},HideFlags:63} 1
 
 ## helmet
-give @a[tag=dd] minecraft:carrot_on_a_stick{display:{Name:"{\"text\":\"The Black Mask\",\"color\":\"black\",\"bold\":\"true\",\"italic\":\"true\"}"},HideFlags:63,Unbreakable:1b,Damage:2b} 1
+give @a[tag=dd] minecraft:carrot_on_a_stick{display:{Name:"{\"text\":\"The Black Mask\",\"color\":\"black\",\"bold\":\"true\",\"italic\":\"true\"}"},HideFlags:63,Unbreakable:1b,BlackMask:1,Damage:2b} 1
 
 ## leggings
 give @a[tag=dd] minecraft:leather_leggings{display:{Name:"{\"text\":\"Black Pants\",\"color\":\"black\",\"bold\":\"true\",\"italic\":\"true\"}",color:3354415},HideFlags:63} 1
