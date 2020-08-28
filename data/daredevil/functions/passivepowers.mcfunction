@@ -2,9 +2,7 @@
 #scoreboard players reset @e[tag=dd] ddcrouch
 stopsound @a[tag=dd,scores={ddcrouch=1..}] ambient
 stopsound @a[tag=dd,scores={ddcrouch=1..}] weather
-stopsound @a[tag=dd,scores={ddcrouch=1..}] neutral
 stopsound @a[tag=dd,scores={ddcrouch=1..}] record
-stopsound @a[tag=dd,scores={ddcrouch=1..}] voice
 execute at @e[tag=dd,scores={ddcrouch=1..}] run execute at @e[type=skeleton,distance=50,limit=1] run playsound minecraft:entity.skeleton.step master @a[tag=dd] ~ ~ ~ 50 1 1
 execute at @e[tag=dd,scores={ddcrouch=1..}] run execute at @e[type=zombie,distance=50,limit=1] run playsound minecraft:entity.zombie.step master @a[tag=dd] ~ ~ ~ 50 1 1
 execute at @e[tag=dd,scores={ddcrouch=1..}] run effect give @e[distance=..100,tag=!dd] minecraft:glowing 1 1 true

@@ -1,6 +1,7 @@
 ## teleport villager
-tp @e[tag=rightclick] 0 100 0
+tp @e[tag=rightclick,tag=!inuse] 0 100 0
 tp @e[tag=rightclick] @a[tag=dd,limit=1,nbt={SelectedItem:{id:"minecraft:shield",Count:1b,tag:{display:{Name:"{\"text\":\"Baton\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Unbreakable:1b}}},scores={ddcrouch=1..}]
+tag @e[tag=inuse] remove inuse
 execute if entity @e[tag=dd,nbt={SelectedItem:{id:"minecraft:shield",Count:1b,tag:{display:{Name:"{\"text\":\"Baton\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Unbreakable:1b}}},scores={ddcrouch=1..}] run tag @e[tag=rightclick] add inuse
 
 effect clear @e[tag=rightclick] glowing

@@ -7,5 +7,8 @@ scoreboard players reset @e ddcrouch
 tag @e[tag=!putonmask] add putonmask
 tag @e[tag=putonmask] remove putonmask
 
+##forceload
+forceload add 0 0
+
 ##message
 tellraw @a ["",{"text":"Reloaded!","underlined":true,"color":"green"},{"text":"   Daredevil Datapack","bold":true,"italic":true,"color":"dark_red"},{"text":" "},{"text":"by","color":"yellow"},{"text":" "},{"text":"F","color":"dark_aqua"},{"text":"lubberschnub","color":"dark_gray"}]
